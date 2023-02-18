@@ -19,7 +19,8 @@ body{
 
 nav{
     color: rgb(0, 0, 0);
-    margin: 0 90px;
+    /* margin: 0 90px; */
+    box-shadow: 0 1px 3px;
 }
 
 nav .first-part{
@@ -57,10 +58,11 @@ nav label{
     line-height: 80px;
     font-size: 45px;
     font-weight: bolder;
+    margin-left: 60px;
 }
 
 nav a:hover{
-    
+
 }
 
 

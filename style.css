@@ -3,7 +3,7 @@ body{
 }
 
 .top-line{
-    background-color: rgba(0, 0, 0, 0.767);
+    background-color:#2c3a475e;
     height: 25px;
     width: 100%;
     padding: 0 20px 0 0;
@@ -11,60 +11,87 @@ body{
 
 .top-line p{
     float: right;
-    display: inline-block;
+    display: flex;
     color: white;
     font-weight: 600;
     padding: 0 20px;
 }
 
-label{
-    line-height: 80px;
+nav{
+    color: rgb(0, 0, 0);
+    margin: 0 90px;
 }
 
-label a{
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-    font-size: 35px;
+nav .first-part{
+    color: #182C61;
+}
+
+nav .second-part{
+    color: #6D214F;
+}
+
+.slide-show{
+    margin: 0 30px;
 }
 
 nav ul{
-    list-style: none;
+    display: flex;
     float: right;
 }
 
 nav li{
-    display: inline-block;
-    padding: 0 10px;
+    list-style: none;
+    margin-right: 90px;
 }
 
 nav a{
     text-decoration: none;
+    color: rgb(0, 0, 0);
     line-height: 80px;
-    color: black;
-    font-weight: 900;
     text-transform: uppercase;
-    padding: 10px 10px;
+    font-size: large;
+    font-weight: 900;
+}
+
+nav label{
+    line-height: 80px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+nav a:hover{
+    
+}
+
+
+.our-services{
+    margin-top: 20px;
+}
+
+.our-services h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box{
+    background-color: #21b57227;
+    padding: 20px;
+    text-align: center;
     border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
 }
 
-nav li a:hover{
-    border: 1px solid black;
-    color: red;
-    border-radius: 5px;
-    transition: .15s;
+.box img{
+    height: 60px;
+    width: 60px;
 }
 
-.top{
-    background-color: rgb(233, 252, 252);
-    margin-bottom: 100px;
+.box h4{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
 
-.navigation-bar{
-    box-shadow: 10px 10px 40px gray;
-    padding: 0 90px;
-}
-
-.slide-show{
-    box-shadow: 0px 10px 10px gray;
+.our-services .row .col-md-3{
+    padding: 20px;
 }

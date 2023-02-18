@@ -57,9 +57,14 @@ nav a{
 nav label{
     line-height: 80px;
     font-size: 45px;
-    font-weight: bolder;
+    font-weight: 900;
     margin-left: 60px;
 }
+
+nav label span{
+    font-family: Barlow, sans-serif;
+}
+
 
 nav a:hover{
 

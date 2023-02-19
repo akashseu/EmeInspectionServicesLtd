@@ -2,7 +2,7 @@ body{
     font-family: montserrat;
 }
 
-.top-line{
+/* .top-line{
     background-color:#2c3a475e;
     height: 25px;
     width: 100%;
@@ -15,11 +15,10 @@ body{
     color: white;
     font-weight: 600;
     padding: 0 20px;
-}
+} */
 
 nav{
     color: rgb(0, 0, 0);
-    /* margin: 0 90px; */
     box-shadow: 0 1px 3px;
 }
 
@@ -51,7 +50,8 @@ nav a{
     line-height: 80px;
     text-transform: uppercase;
     font-size: large;
-    font-weight: 900;
+    font-weight: 500;
+    color: #182C61;
 }
 
 nav label{
@@ -67,9 +67,37 @@ nav label span{
 
 
 nav a:hover{
-
+    color: #6D214F;
+    transition: .3s;
 }
 
+.navigation-bar ul li{
+    float: right;
+}
+
+.about-company{
+    text-align: center;
+    /* background-color: #cad3c86c; */
+    padding-bottom: 60px;
+    display: block;
+}
+
+.about-company span{
+    text-transform: uppercase;
+    line-height: 300px;
+    font-size: 3rem;
+    font-weight: 900;
+    color:#182C61;
+}
+
+.about-company p{
+    line-height: 40px;
+    font-size: 2rem;
+}
+
+.slide-show{
+    text-align: center;
+}
 
 .our-services{
     margin-top: 20px;
@@ -80,7 +108,7 @@ nav a:hover{
     margin-bottom: 20px;
 }
 
-.box{
+.our-services .box{
     background-color: #21b57227;
     padding: 20px;
     text-align: center;
@@ -100,5 +128,14 @@ nav a:hover{
 }
 
 .our-services .row .col-md-3{
+    padding: 20px;
+}
+
+.footer{
+    background-color: #2C3A47;
+    color: white;
+}
+
+.footer .box{
     padding: 20px;
 }

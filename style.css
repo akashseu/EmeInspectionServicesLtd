@@ -20,6 +20,10 @@ body{
 nav{
     color: rgb(0, 0, 0);
     box-shadow: 0 1px 3px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100000;
 }
 
 nav .first-part{
@@ -28,10 +32,6 @@ nav .first-part{
 
 nav .second-part{
     color: #6D214F;
-}
-
-.slide-show{
-    margin: 0 30px;
 }
 
 nav ul{
@@ -71,15 +71,12 @@ nav a:hover{
     transition: .3s;
 }
 
-.navigation-bar ul li{
-    float: right;
-}
-
 .about-company{
     text-align: center;
     /* background-color: #cad3c86c; */
     padding-bottom: 60px;
     display: block;
+    padding-top: 60px;
 }
 
 .about-company span{
@@ -99,13 +96,24 @@ nav a:hover{
     text-align: center;
 }
 
+.carousel{
+    margin: 0 90px;
+}
+
+.slide-show .col-md-12 h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
 .our-services{
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .our-services h1{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
 }
 
 .our-services .box{
@@ -134,8 +142,25 @@ nav a:hover{
 .footer{
     background-color: #2C3A47;
     color: white;
+    height: 400px;
+    margin-top: 60px;
 }
 
 .footer .box{
     padding: 20px;
+}
+
+.footer .map-area iframe{
+    height: 300px;
+    width: 100%;
+}
+
+.our-clients{
+    margin-top: 60px;
+}
+
+.our-clients h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
 }

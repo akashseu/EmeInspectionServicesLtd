@@ -90,10 +90,12 @@ nav a:hover{
 .about-company p{
     line-height: 40px;
     font-size: 2rem;
+    text-align: justify;
 }
 
 .slide-show{
     text-align: center;
+    background-color: #21b57227;
 }
 
 .carousel{
